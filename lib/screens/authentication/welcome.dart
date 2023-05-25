@@ -4,6 +4,8 @@ import 'package:streamingapp/shared/rounded_button.dart';
 import 'package:streamingapp/screens/authentication/login.dart';
 import 'package:streamingapp/screens/authentication/signup.dart';
 
+import '../../shared/social_login_button.dart';
+
 class Welcome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -46,6 +48,15 @@ class Welcome extends StatelessWidget {
                     ],
                   ),
                 ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(left: 50, right: 50),
+                child: SocialLoginButton(
+                  onTap: () {},
+                ),
+              ),
+              SizedBox(
+                height: 16,
               ),
               RoundedButton(
                 text: "Log In",
