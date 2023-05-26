@@ -26,7 +26,7 @@ class _GamesState extends State<Games> {
     setState(() {
       switch (widgetName) {
         case "games_all":
-          currentWidgetView = GamesAll(onPress: () {
+          currentWidgetView = GamesAll(onPress: (game) {
             switchTo("game_detail", game);
           });
           break;
