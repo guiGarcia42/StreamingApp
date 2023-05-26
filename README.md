@@ -1,17 +1,14 @@
-# streamingapp
+# Game Streaming App made with Flutter
 
-A new Flutter project.
+This is an App UI made with Flutter to practice and challenge myself.
 
-## Getting Started
+## Welcome & Login Pages
+![Welcome   Login Page](https://github.com/guiGarcia42/StreamingApp/assets/81885816/5fa29c49-8c23-4b96-9b58-a939625594fe)
+## Explore & Search Pages
+![Explore   Search Page](https://github.com/guiGarcia42/StreamingApp/assets/81885816/a32d5615-794a-4646-8670-d4ce7c61061c)
+## Games and Profile Pages
+![Games   Profile Page](https://github.com/guiGarcia42/StreamingApp/assets/81885816/c2a3c91c-d061-4b8d-b9ad-845e54d5fee8)
 
-This project is a starting point for a Flutter application.
+Still have a lot to improve, I'll implement the back-end for a fully functional app in the future.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# StreamingApp
+If you want to contribute with the idea, feel free to create a fork and continue the project.
