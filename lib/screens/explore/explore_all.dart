@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:streamingapp/shared/category_item.dart';
 import 'package:streamingapp/shared/custom_filled_field.dart';
-import 'package:streamingapp/shared/popular_channels_item.dart';
+import 'package:streamingapp/shared/popular_channel_item.dart';
 import 'package:streamingapp/shared/rounded_label.dart';
 
 class ExploreAll extends StatefulWidget {
-  const ExploreAll({super.key});
+  final Function onPress;
+  ExploreAll({super.key, required this.onPress});
 
   @override
   State<ExploreAll> createState() => _ExploreAllState();
@@ -145,12 +146,17 @@ class _ExploreAllState extends State<ExploreAll> {
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-                        Text(
-                          "Open all",
-                          style: TextStyle(
-                            color: Colors.grey[600],
-                            fontSize: 18,
-                            fontWeight: FontWeight.bold,
+                        GestureDetector(
+                          onTap: () {
+                            widget.onPress();
+                          },
+                          child: Text(
+                            "Open all",
+                            style: TextStyle(
+                              color: Colors.grey[600],
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold,
+                            ),
                           ),
                         ),
                       ],
